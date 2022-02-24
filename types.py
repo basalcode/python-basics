@@ -22,3 +22,17 @@ print("Sunday has been added!", days)
 days.reverse() # list를 거꾸로 뒤집기
 print("Days list has been reversed!", days)
 
+# tuple - 값을 바꿀 수 없다
+days = ("Mon", "Tue", "Wed", "Thur", "Fri", "Sat")
+print("What type is this?:", type(days)) # type 구하기
+
+# dictionary 
+person = {
+    "name": "Alex",
+    "age": 20,
+    "isMale": True
+}
+print(person)
+
+person["pets"] = ["dog", "cat"] # 값 추가
+print(person)
